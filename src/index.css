@@ -26,10 +26,45 @@ body{
 
 .pointer {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   position: absolute;
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
   opacity: .5; ;
 }
+
+.textRandom{
+  color: white;
+  font-size: 10px;
+  opacity: .5; ;
+}
+
+
+.texture-selector {
+  bottom: 32px;
+  background: #aaa;
+  padding: 8px;
+  border: 3px solid #000;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 18px;
+}
+
+.texture-selector.hidden {
+  display: none;
+}
+
+.texture-selector img {
+  width: 50px;
+  z-index: 100;
+  image-rendering: pixelated;
+  border: 3px solid #373737;
+}
+
+.texture-selector img.selected {
+  border-color: whitesmoke;
+}
+

@@ -4,6 +4,7 @@ import { Physics } from '@react-three/cannon'
 import { Ground } from './components/Ground.jsx'
 import { FPV as Fpv } from './components/FPV.jsx';
 import { Player1 } from './components/Player1.jsx';
+import { Cubes } from './components/Cubes.jsx';
 
 function App() { 
  return ( 
@@ -15,6 +16,7 @@ function App() {
     <Fpv />
 
     <Physics>
+      <Cubes />
       <Player1 />
       <Ground />
     </Physics>

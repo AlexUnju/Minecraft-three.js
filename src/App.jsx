@@ -23,7 +23,7 @@ function App() {
   </Canvas>
   
   <div className='pointer'>
-    + <span className='textRandom'>nuwa gei</span>
+    +
   </div>
   <TextureSelector />
   </>
